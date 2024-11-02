@@ -1,0 +1,104 @@
+<h1></h1>
+<p></p>
+<img src="" alt="" >
+<a href=""></a>
+<ul>
+    <li></li>
+</ul>
+<ol></ol>
+ <table> <!--bảng-->
+    <thead></thead>
+    <tbody>
+        <tr>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<input type="text"> 
+checkbox
+radio
+<button></button> <!--nút-->
+<div></div> <!--khối-->
+<link rel="" href="">
+Attribute <!--thuộc tính-->
+<p title=""></p>
+<p style="color: black;font-size: 16px;"></p>
+
+CSS
+#id{ }
+.class{ } <!--tag name -->
+*{ } <!-- all -->
+:root { --x: red } <!-- biến -->
+{var(--x)} <!-- dùng biến -->
+!important <!-- được ưu tiên -->
+clord ???
+display: block; <!-- pt dạng khối -->
+display: inline; <!-- pt dạng dòng -->
+background-color: red;
+font-size: px;
+align-items: center; <!-- cân bằng -->
+justify-content: center; <!-- cân bằng chữ trong thẻ???-->
+border-style: solid; <!--  nét liền -->
+box-sizing: border-box; <!-- căn chỉnh khối k làm tăng kích thước -->
+background-clip: border-box; <!-- đổ màu backgrond từ -->
+background-origin: pađing-box; <!-- đổ màu ảnh từ -->
+background-image: <!-- ảnh nền --> <!-- + png ảnh trong, + repeat background stock image -->
+background-image: linear-gradient( 0deg, red, blue)
+                                    góc  màu1 màu2 
+background-size: px; <!-- kích thước ảnh ở trên -->
+background-size: contain; <!-- lấy chiều ngắn nhất làm kích thước ảnh, viết ngắn thêm / -->
+background-size: cover; <!-- lấy chiều dài nhất làm kích thước ảnh -->
+background-repeat: no-repeat; <!--  -->
+background-position: top px right px bottom px left px center; <!-- tọa độ xy cx đc -->
+
+position: relative; <!-- lấy mình làm gốc tọa độ -->
+top right ...
+ưu tiên top left
+position: absolute; <!-- lấy thẻ cha gần nhất làm gốc -->
+position: fixed; <!-- cố định vào trình duyệt -->
+position: stcky; <!-- cách 1 khoảng kéo xuống thì chạm đỉnh thì thôi, hạn chế dùng -->
+
+Hàm
+calc( + - * / )
+attr()
+a::after {
+tên thẻ
+    content:"("attr(href)")"
+                    lấy giá trị ở
+            thẻ a mới cần "( )"
+}
+Lớp giả
+:hover{} <!-- chạm vô đề kích hoạt -->
+:acitive{} <!-- ấn vô đề kích hoạt -->
+:first-child <!-- lấy phần tử đầu -->
+:last-child <!-- láya phần tử cuối -->
+
+Phần tử giả
+::before { <!-- ở đầu phần tử -->
+    content:"";
+    cần có
+    display:block:
+    cần có
+}
+::after {}  <!-- ở phần tử cuối -->
+::first-letter <!-- chữ đầu -->
+::first-line <!-- dòng đầu -->
+::selection <!-- lúc bôi đen -->
+
+Flexbox
+display: flex | inline-flex <!-- , cùng hàng -->
+flex-direction: row | column | row-reverse <!-- ngang(mặc định), dọc -->
+flex-wrap: nowrap | worap | worap-reverse <!-- k xuống dòng, xuống dòng, nhảy lên -->
+flex-basis: ; <!-- kích thước main size -->
+justify-content: flex-start | flex-end | center | space-between | space-around <!-- căn dọc, xa nhau, xa nhau có cách -->
+justify-self: flex-start | flex-end | center <!-- con -->
+align-content: flex-start | flex-end | center <!-- căn ngang, cha -->
+margin: auto;
+align-self: flex-start | flex-end | center <!-- con -->
+align-item: flex-start|end;
+flex-grow: ; <!-- kích thước main size -->
+flex-shrink: ; <!-- ngược lại -->
+flex: 1; <!-- chia theo tỉ lệ --> <!-- viết gọn -->
+flex-flow: 
+order: ; <!-- thứ tự xếp -->
+<!--  -->

@@ -1,0 +1,109 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+/* đầu trang */
+
+.dau-trang{
+    background-color: aqua;
+    width: 100%;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+
+    /* position: relative; */
+}
+.dau-trang_tieu_de{
+    margin: auto;
+}
+
+.dau-trang_gioi_thieu{
+    margin: auto;
+}
+/*thân trang */
+
+.than-trang{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.than-trang_noi_dung{
+    display: flex;
+    flex-direction: row;
+}
+    /* phần 1 */
+
+.than-trang_noi_dung_1{
+    flex: 1;
+}
+
+    /* phần 2 */
+
+.than-trang_noi_dung_2{
+    flex: 1;
+}
+
+    /* minh họa */
+
+.than-trang_minh_hoa{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.than-trang_minh_hoa_anh{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 6;
+    display:flex;
+    flex-direction: column;
+}
+
+.tieu-de{
+    width: 100%;
+    height: 20px;
+    flex: 1
+}
+
+.bang{
+    flex: 20;
+    display: flex;
+
+}
+
+.cot{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.anh{
+    width: 95%;
+    height: auto;
+    background-color: aqua;
+    flex: 1;
+}
+
+.than-trang_minh_hoa_video{
+    flex: 4;
+}
+.video{
+    width: 300px;
+    height: auto;
+}
+
+    /* bình luận */
+
+.than-trang_binh_luan{
+}
+
+/* cuối trang */
+
+.cuoi-trang{
+}
