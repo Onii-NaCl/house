@@ -15,6 +15,12 @@ body{
     
     
 }
+
+body:active{
+    background-color: rgba(0, 0, 0, 0);
+    color:black;
+}
+
 /* đầu trang */
 
 .dau-trang{
@@ -26,6 +32,8 @@ body{
 
     /* position: relative; */
 }
+
+
 .dau-trang_tieu_de{
     margin: auto;
 }
@@ -39,6 +47,11 @@ body{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+::selection{
+    background-color:aqua;
+    color:rgb(255, 255, 255);
 }
 
 .than-trang_noi_dung{
@@ -179,6 +192,7 @@ body{
 
 .cuoi-trang{
     background-color: rgb(200,200,200);
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
 }
